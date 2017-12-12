@@ -54,35 +54,6 @@
 	<script type="text/javascript" async src="//app.comagic.ru/static/cs.min.js"></script>
 </head>
 <body>
-	<!-- Yandex.Metrika counter -->
-	<script type="text/javascript">
-		(function (d, w, c) {
-			(w[c] = w[c] || []).push(function() {
-				try {
-					w.yaCounter39092850 = new Ya.Metrika({
-						id:39092850,
-						clickmap:true,
-						trackLinks:true,
-						accurateTrackBounce:true,
-						webvisor:true
-					});
-				} catch(e) { }
-			});
-
-			var n = d.getElementsByTagName("script")[0],
-				s = d.createElement("script"),
-				f = function () { n.parentNode.insertBefore(s, n); };
-			s.type = "text/javascript";
-			s.async = true;
-			s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-			if (w.opera == "[object Opera]") {
-				d.addEventListener("DOMContentLoaded", f, false);
-			} else { f(); }
-		})(document, window, "yandex_metrika_callbacks");
-	</script>
-	<noscript><div><img src="https://mc.yandex.ru/watch/39092850" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-	<!-- /Yandex.Metrika counter -->
 <div class="wrap_cellar container-fluid">
     <header class="main col-lg-12 col-md-12 col-sm-12 col-xs-12 p0">
         <div class="container p0">
@@ -125,7 +96,7 @@
                     <p>от производителя на Вашем участке через<br/>9 дней за 139 000 рублей.</p>
                 </header>
                 <section class="wrap_form clear_fix">
-                    <form method="POST" id="formx" action="javascript:void(null);" onsubmit="call('formx', 'выезд инженера на участок для составления сметы')">
+                    <form method="POST" id="formx" action="thank-you.php">
                         <p>Закажите <strong>бесплатный</strong> выезд инженера на участок для составления сметы</p>
                             <input type="text" name="name" placeholder="Ваше имя">
                             <input type="text" name="phone" class="pk" placeholder="Ваш телефон">
@@ -382,7 +353,7 @@
                     <img src="pic/cellar_4.png" alt="">
                 </div>
                 <div class="wrap_form wow zoomInUp" data-wow-offset="200" data-wow-delay="0.2s" data-wow-duration="1.5s">
-                    <form method="POST" id="formx2" action="javascript:void(null);" onsubmit="call('formx2', 'Не экономьте на качестве')">
+                    <form method="POST" id="formx2" action="thank-you.php">
                         <h2>Не экономьте на качестве</h2>
                         <p>закажите погреб, которым будут пользоваться<br/>Ваши внуки и правнуки</p>
                         <input type="text" name="name" placeholder="Ваше имя">
@@ -480,7 +451,7 @@
                         <h3>Не можете выбрать модель?</h3>
                         <p>Заполните форму, мы свяжемся с Вами и подберем<br/>
                             оптимальный вариант или сделаем погреб по Вашим размерам</p>
-                        <form method="POST" id="formx3" action="javascript:void(null);" onsubmit="call('formx3', 'Не можете выбрать модель?')">
+                        <form method="POST" id="formx3" action="thank-you.php">
                             <input type="text" name="name" placeholder="Ваше имя">
                             <input type="text" name="phone" placeholder="Ваш телефон" class="pk">
                             <button id="btn_submit3" type="submit">Оставить заявку</button>
@@ -615,7 +586,7 @@
                         <div class="frame frame_120">
                             <div class="wrap_form">
                                 <h3>Закажите погреб с установкой прямо сейчас</h3>
-                                <form method="POST" id="formx4" action="javascript:void(null);" onsubmit="call('formx4', 'Закажите погреб с установкой прямо сейчас')">
+                                <form method="POST" id="formx4" action="thank-you.php">
                                     <input type="text" name="name" placeholder="Ваше имя">
                                     <input type="text" name="phone" placeholder="Ваш телефон" class="pk">
                                     <button id="btn_submit4" type="submit">заказать бесплатный выезд</button>
@@ -783,7 +754,7 @@
                 <h2>Остались вопросы?</h2>
                 <p>Оставьте свои контактные данные, мы перезвоним Вам в течение<br/>20 минут и ответим на все Ваши
                     вопросы</p>
-                <form method="POST" id="formx5" action="javascript:void(null);" onsubmit="call('formx5', 'Остались вопросы?')">
+                <form method="POST" id="formx5" action="thank-you.php">
                     <input type="text" name="name" placeholder="Ваше имя">
                     <input type="text" name="phone" placeholder="Ваш телефон" class="pk">
                     <button id="ihaveaq" type="submit">У меня есть вопрос</button>
@@ -850,7 +821,7 @@
                     <img src="img/close_popup.png" alt="">
                 </div>
                 <h3>Заказать обратный звонок</h3>
-                <form method="POST" id="formx6" action="javascript:void(null);" onsubmit="call('formx6', 'Заказать обратный звонок')">
+                <form method="POST" id="formx6" action="thank-you.php">
                     <input type="text" name="name" placeholder="Ваше имя">
                     <input type="text" name="phone" placeholder="Ваш телефон" class="pk">
                     <button id="ihaveaq2" type="submit">У меня есть вопрос</button>
@@ -864,7 +835,7 @@
                 </div>
                 <h3>Узнать подробности</h3>
                 <p>Заполните форму, мы перезвоним Вам в течении 20 минут и расскажем подробнее о преимуществах погреба "Атлант"</p>
-                <form method="POST" id="formx10" action="javascript:void(null);" onsubmit="call('formx10', 'Узнать подробности')">
+                <form method="POST" id="formx10" action="thank-you.php">
                     <input type="text" name="name" placeholder="Ваше имя">
                     <input type="text" name="phone" placeholder="Ваш телефон" class="pk">
                     <button id="moreI" type="submit">Жду звонка</button>
@@ -878,7 +849,7 @@
                 </div>
                 <h3>Оставить заявку</h3>
                 <p>Заполните форму, мы перезвоним Вам в течении 20 минут и поможем выбрать оптимальный для вас вариант погреба</p>
-                <form method="POST" id="formx111" action="javascript:void(null);" onsubmit="call('formx111', 'Оставить заявку')">
+                <form method="POST" id="formx111" action="thank-you.php">
                     <input type="text" name="name" placeholder="Ваше имя">
                     <input type="text" name="phone" placeholder="Ваш телефон" class="pk">
                     <button id="moreI1" type="submit">Жду звонка</button>
@@ -900,7 +871,7 @@
                     <img src="img/close_popup.png" alt="">
                 </div>
                 <h3>Оставить отзыв о погребе Атлант</h3>
-                <form method="POST" id="formxx" action="javascript:void(null);" onsubmit="callx('formxx')">
+                <form method="POST" id="formxx" action="thank-you.php">
                     <input type="text" name="name" placeholder="Ваше имя">
                     <input type="text" name="phone" placeholder="Ваш телефон" class="pk">
                     <textarea name="text"></textarea>
@@ -1022,7 +993,7 @@
                     </div>
                 </div>
                 <div class="mini_form">
-                    <form method="POST" id="formx7" action="javascript:void(null);" onsubmit="call('formx7', 'Модель 1')">
+                    <form method="POST" id="formx7" action="thank-you.php">
                         <input type="text" name="name" placeholder="Ваше имя">
                         <input type="text" name="phone" placeholder="Ваш телефон" class="pk">
                         <button id="btn_submit5" type="submit">Оставить заявку</button>
@@ -1151,7 +1122,7 @@
                     </div>
                 </div>
                 <div class="mini_form">
-                    <form method="POST" id="formx8" action="javascript:void(null);" onsubmit="call('formx8', 'Модель 2')">
+                    <form method="POST" id="formx8" action="thank-you.php">
                         <input type="text" name="name" placeholder="Ваше имя">
                         <input type="text" name="phone" placeholder="Ваш телефон" class="pk">
                         <button id="btn_submit6" type="submit">Оставить заявку</button>
@@ -1275,7 +1246,7 @@
                     </div>
                 </div>
                 <div class="mini_form">
-                    <form method="POST" id="formx9" action="javascript:void(null);" onsubmit="call('formx9', 'Модель 3')">
+                    <form method="POST" id="formx9" action="thank-you.php">
                         <input type="text" name="name" placeholder="Ваше имя">
                         <input type="text" name="phone" placeholder="Ваш телефон" class="pk">
                         <button id="btn_submit7">Оставить заявку</button>
